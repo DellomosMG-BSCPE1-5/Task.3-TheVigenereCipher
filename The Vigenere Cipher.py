@@ -4,6 +4,14 @@ from colorama import Fore, Back, Style
 print(Fore.BLUE + pyfiglet.figlet_format("  The  Vigenère  Cipher   ", font = "xsansb", width=500))
 
 #Welcome Message
+from pyboxen import boxen
+print(
+        boxen(
+            "This program will help you in converting plaintext and keyword into ciphertext using the Vigenère Cipher.",
+            color="bold blue",
+        )
+    )
+
 #Ask the user the message string and the key string
 #List the letter values that will be used in translating the plaintext inputted by the user
 #Use the number substitute to turn each element by its corresponding number
