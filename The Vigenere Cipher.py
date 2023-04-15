@@ -1,4 +1,8 @@
 #Title/Header Section
+import pyfiglet
+from colorama import Fore, Back, Style
+print(Fore.BLUE + pyfiglet.figlet_format("  The  Vigenère  Cipher   ", font = "xsansb", width=500))
+
 #Welcome Message
 #Ask the user the message string and the key string
 #List the letter values that will be used in translating the plaintext inputted by the user
