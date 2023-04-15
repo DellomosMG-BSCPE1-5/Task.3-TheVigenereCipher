@@ -1,6 +1,6 @@
 # CMPE 103 OBJECT-ORIENTED PROGRAMMING
 ```
-LAB EXERCISE No 1 – DECRYPTOR
+LAB EXERCISE No. 3 – The Vigenère Cipher
 ```
 
 ## Task Instruction:
