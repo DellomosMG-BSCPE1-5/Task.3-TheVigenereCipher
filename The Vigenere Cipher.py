@@ -34,7 +34,17 @@ for letter in key_input:
     new_key_string.append(letters.index(letter))
 
 #Get the sum of each elements from message and key which are aligned in column, then the mod 26 of each sum
+mod = []
+for i in range(len(new_message_string)):
+    mod.append((new_message_string[i] + new_key_string[i % len(new_key_string)]) % 26)
+
 #Encrypt
+
+
+#Encrypt
+
 #Processing the Output/Loading
+
 #Display the decrypted text to the user
+
 #Ask the user if he/she wants to try again the program.
