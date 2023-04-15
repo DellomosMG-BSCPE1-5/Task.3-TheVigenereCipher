@@ -47,14 +47,22 @@ for i in mod:
         encrypted_txt += i
 
 #Processing the Output/Loading
-print('\n')
 from rich.progress import track
 from time import sleep
+print('\n')
 def process_data():
     sleep(0.01)
 for _ in track(range(100), description='[blue]Processing data'):
     process_data()
 
 #Display the decrypted text to the user
+from rich.console import Console
+print("\n")
+print(Fore.BLUE + "=" * 105)
+console = Console()
+console.print("[cyan]Message[cyan]: ", message_input.upper())
+console.print("[cyan]Key[cyan]: ", key_input.upper())
+console.print("[cyan]Here is the encrypted format of your input[cyan]: ", encrypted_txt)
+print(Fore.BLUE + "=" * 105)
 
 #Ask the user if he/she wants to try again the program.
