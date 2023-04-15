@@ -47,6 +47,13 @@ for i in mod:
         encrypted_txt += i
 
 #Processing the Output/Loading
+print('\n')
+from rich.progress import track
+from time import sleep
+def process_data():
+    sleep(0.01)
+for _ in track(range(100), description='[blue]Processing data'):
+    process_data()
 
 #Display the decrypted text to the user
 
