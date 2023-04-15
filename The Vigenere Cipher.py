@@ -39,9 +39,12 @@ for i in range(len(new_message_string)):
     mod.append((new_message_string[i] + new_key_string[i % len(new_key_string)]) % 26)
 
 #Encrypt
-
-
-#Encrypt
+encrypted_txt = ""
+for i in mod:
+    if i in index_letters:
+        encrypted_txt += letters[i]
+    else: 
+        encrypted_txt += i
 
 #Processing the Output/Loading
 
