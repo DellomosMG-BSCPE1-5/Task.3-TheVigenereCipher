@@ -25,6 +25,14 @@ for letter in letters:
     index_letters.append(letters.index(letter))
 
 #Use the number substitute to turn each element by its corresponding number
+new_message_string = []
+for letter in message_input:
+    new_message_string.append(letters.index(letter))
+
+new_key_string = []
+for letter in key_input:
+    new_key_string.append(letters.index(letter))
+
 #Get the sum of each elements from message and key which are aligned in column, then the mod 26 of each sum
 #Encrypt
 #Processing the Output/Loading
